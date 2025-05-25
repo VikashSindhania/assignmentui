@@ -1,0 +1,241 @@
+.body {
+  padding: 0 0 24px 0;
+  background: #fff;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff0f6;
+  border-radius: 0 0 32px 32px;
+  padding: 16px 12px 0 12px;
+  margin-bottom: 12px;
+}
+
+.hero-text {
+  margin-bottom: 10px;
+}
+
+.hero-desc {
+  color: #b71c5a;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.highlight {
+  color: #e53935;
+  font-weight: bold;
+}
+
+.hero-img img {
+  width: 220px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.stats-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 2px solid #ff4f8b;
+  border-radius: 16px;
+  margin: 18px 0 12px 0;
+  padding: 12px 0;
+  box-shadow: 0 2px 8px rgba(255, 79, 139, 0.04);
+  max-width: 98vw;
+  gap: 0;
+}
+
+.stat {
+  flex: 1 1 0;
+  text-align: center;
+  padding: 0 12px;
+  min-width: 90px;
+}
+
+.stat-value {
+  color: #ff4f8b;
+  font-size: 1.35rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.stat-label {
+  color: #444;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 38px;
+  background: #ffb6d5;
+  margin: 0 0px;
+  border-radius: 1px;
+}
+
+.reviews-section {
+  background: #00e6b8;
+  border-radius: 8px;
+  margin: 0 0 16px 0;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 24px;
+}
+
+.reviews-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 160px;
+  margin-right: 12px;
+}
+
+.reviews-stars-svg {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  gap: 2px;
+}
+
+.star-square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  border: 2px solid #00e6b8;
+  border-radius: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+}
+
+.star-square:last-child {
+  margin-right: 0;
+}
+
+.star-square svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.review-note {
+  color: #222;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.reviews-right {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222;
+  gap: 4px;
+}
+
+.excellent {
+  color: #009e60;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.rating {
+  color: #1e90ff;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.out-of {
+  color: #222;
+  font-size: 1.05rem;
+  font-weight: 400;
+  text-decoration: underline #222 2px;
+  text-underline-offset: 2px;
+}
+
+.countdown-section {
+  background: #fff;
+  border-radius: 16px;
+  margin: 0 12px 16px 12px;
+  padding: 14px 0 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.countdown-title {
+  color: #e53935;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.timer-box {
+  background: #222;
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 8px;
+  min-width: 44px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18), 0 1.5px 0 #888 inset;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-labels {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 8px;
+  margin-top: 2px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.body-cta {
+  background: #ffe600;
+  color: #e53935;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  transition: background 0.2s;
+}
+
+.body-cta:hover {
+  background: #fff176;
+}
